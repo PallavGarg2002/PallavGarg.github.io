@@ -1,0 +1,89 @@
+#email{
+    text-align: right;
+}
+#name{
+    text-align: center;
+    min-height: 20px;
+    font-size: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    margin-top: 10px;
+    color:whitesmoke;
+    background-color:crimson;
+    font-family: "Lucida Handwriting";
+}
+#image{
+    max-width: 90%;
+    max-height: 300px;
+    display: block;
+    margin-left: 10%;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#menucolumn {
+    float: left;
+    width: 25%;
+    text-align: center;
+    }
+
+#menurow:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+#menurow{
+    padding-block: 7px;
+    background-color: crimson;
+    margin-top: 5px;
+}
+#menulink:visited,#menulink:active,#menulink:hover,#menulink:link{
+    text-decoration: none;
+    cursor:pointer;
+    font-size:20px;
+    color:white;
+}
+#copy{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom:20px;
+    margin-top: 20px;
+}
+.resumecolumn {
+    float: left;
+  }
+#resumecolumn1{
+    width:30%;
+    padding-left: 10px;
+    min-width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#resumecolumn2{
+    width:60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.resumerow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+#lines{
+    border: 2px solid crimson;
+    width: 80%;
+    margin-left: 2px;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#rlink:visited,#rlink:active,#rlink:hover,#rlink:link{
+    text-decoration: none underline;
+    cursor:pointer;
+    color:black;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
