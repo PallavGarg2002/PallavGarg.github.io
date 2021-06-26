@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <title>OMSONS</title>
+      <link rel="stylesheet" href="contact.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script type="text/javascript">
+            function initMap() {
+            const uluru = { lat: 28.656432, lng: 77.231028 };
+              const map = new google.maps.Map(document.getElementById("map"), {
+               zoom: 4,
+                center: uluru,
+            });
+              const marker = new google.maps.Marker({
+                position:uluru,
+              map: map,
+             });
+            }
+      </script>
+   </head>
+   <body>
+      <nav>
+         <div class="logo">OMSONS</div>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li><a href="omsons.html">Home</a></li>
+            <li><a href="#">PRODUCTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="pallav.html">DESIGNED BY</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <div class="row">
+            <div class="column" id="column1">
+               
+               <h2><i class="fas fa-building"></i>  Head Office</h2>
+               Om Vihar,Uttam Nagar,New Delhi-110059<br><br><br>
+               <h2><i class="fas fa-phone-alt"></i></i>  Phone</h2>
+               9999700003/9999700004<br><br><br>
+               <h2><i class="fab fa-whatsapp"></i>  Whatsapp</h2>
+               9999700003/9999700004<br><br><br>
+               <h2><i class="fas fa-envelope"></i>  Email</h2><br>
+               Omsons103@gmail.com<br>
+            </div>
+            <div class="column"><!-- form.123formbuilder.com script begins here --><script type="text/javascript" defer src="https://form.123formbuilder.com/embed/5941187.js" data-role="form"></script><!-- form.123formbuilder.com script ends here -->
+            </div>
+            <div id="map"><script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly"async></script>
+         </div>
+         <div class="map-head"><a href="https://goo.gl/maps/mMX4REqSqMhqEpqM9" target="blank">DIRECTIONS</a></div>
+        
+
+    
+        <div class="footer">
+            <p>&copy;This is a CopyRight Content.All rights reserved.Privacy Policy<br>
+            Site Created By Pallav Garg.</p>
+              
+            </div>
+      </div>
+      
+   </body>
+</html>
