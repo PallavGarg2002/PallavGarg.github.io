@@ -98,7 +98,7 @@ img{
     min-height: 200px;
     cursor: pointer;
 }
-@media (max-width: 1000p    x){
+@media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
   }
